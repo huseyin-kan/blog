@@ -7,4 +7,10 @@
   .tde{
     @apply transition duration-300 ease-in-out
   }
+  .textOpacity{
+    @apply hover:cursor-pointer hover:text-slate-300/60
+  }
+  .centered{
+    @apply flex items-center justify-center
+  }
 }
