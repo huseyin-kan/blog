@@ -2,16 +2,16 @@ import React from 'react'
 
 export default function SideMenu({showMenu,visible,dark,changeTheme}) {
   return (
-    <div className={`shadow-md w-60 h-screen fixed top-0 transition-all duration-500 ease-in-out flex-col centered bg-slate-800/50 backdrop-blur-sm gap-16 
+    <div className={`shadow-md w-60 h-screen fixed top-0 text-slate-300 transition-all duration-500 ease-in-out flex-col centered bg-slate-800/50 backdrop-blur-sm gap-16 
     ${visible ? 'right-0 md:hidden' : '-right-full'}`}>
         <button className='text-red-600' onClick={showMenu}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
-        <div className='px-2 py-1 centered text-slate-700 rounded-md hover:bg-slate-300/70 tde'>About me</div>
-        <div className='px-2 py-1 centered text-slate-700 rounded-md hover:bg-slate-300/70 tde'>My projects</div>
-        <div className='px-2 py-1 centered text-slate-700 rounded-md hover:bg-slate-300/70 tde'>Contact</div>
+        <div className='px-2 py-1 centered  rounded-md hover:bg-slate-300/70 hover:cursor-pointer tde'>About me</div>
+        <div className='px-2 py-1 centered  rounded-md hover:bg-slate-300/70 hover:cursor-pointer tde'>My projects</div>
+        <div className='px-2 py-1 centered  rounded-md hover:bg-slate-300/70 hover:cursor-pointer tde'>Contact</div>
         <div>
         <button className='centered' onClick={changeTheme}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 

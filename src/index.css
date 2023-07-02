@@ -13,4 +13,7 @@
   .centered{
     @apply flex items-center justify-center
   }
+  .swapButton{
+    @apply bg-gray-800 p-2 hover:bg-gray-700 shadow-md rounded-full
+  }
 }
