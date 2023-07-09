@@ -9,14 +9,14 @@ export const textData = [
     },
     {
         header:"Skills",
-        main: 'React,Javascript,Git,Node,.Net,HTML,CSS'
+        main:"React-Javascript-Git-Node-.Net-HTML-CSS"
     },
     {
         header:'Education',
-        main:'Mersin University Computer Engineer. 2019-2023'
+        main:"Mersin University Computer Engineer. 2019-2023"
     },
     {
         header:'Work Exeperience',
-        main:'Adana Büyükşehir Belediyesi Yazılım Birimi. 27.06.2022-01.09.2022'
+        main:"Adana Büyükşehir Belediyesi Yazılım Birimi. 27.06.2022-01.09.2022"
     }
 ]

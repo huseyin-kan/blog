@@ -18,7 +18,7 @@ export default function Header() {
   },[])
 
   return (
-    <div className='flex fixed w-full justify-around text-lg px-8 py-4 bg-slate-800 text-slate-300 shadow-sm '>
+    <div className='flex fixed w-full justify-around text-lg px-8 py-4 bg-slate-800 z-40 text-slate-300 shadow-sm '>
       <div className='font-semibold'>
         Hüseyin Kan
       </div>
